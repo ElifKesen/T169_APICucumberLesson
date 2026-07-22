@@ -14,7 +14,7 @@ import org.junit.runner.RunWith;
         },
         features = "src/test/resources/Features",
         glue = {"stepDefinitions"},
-        tags = "@get",
+        tags = "@GetID",
 
         dryRun = false
 
