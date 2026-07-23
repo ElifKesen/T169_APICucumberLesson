@@ -7,7 +7,7 @@ public class BaseUrl {
    protected RequestSpecification spec;
 
    public BaseUrl(){
-       System.out.println("Constructor calisti");
+      // System.out.println("Constructor calisti");
 
        String baseUrl=ConfigReader.getProperty("base_url");
        spec=new RequestSpecBuilder().setBaseUri(baseUrl).build();
